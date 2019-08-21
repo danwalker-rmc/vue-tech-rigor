@@ -17,6 +17,12 @@ module.exports = {
       template: 'public/banner.html',
       filename: 'banner.html',
       title: 'Banner'
+    },
+    nav: {
+      entry: './src/pages/Navigation/main.js',
+      template: 'public/nav.html',
+      filename: 'nav.html',
+      tiitle: 'Nav'
     }
   },
   assetsDir: 'static',

@@ -561,6 +561,7 @@
               <li id="ulsettings_Manager" class="hidden settingsli"><font-awesome-icon fas icon="pencil-alt" class="icon"></font-awesome-icon><a class="dropdown-item" href="#">Design Manager</a></li>
               <li id="ulsettings_Contents" class="hidden settingsli"><font-awesome-icon fas icon="box-open" class="icon"></font-awesome-icon><a class="dropdown-item" href="#">Site contents</a></li>
               <li id="ulsettings_Settings" class="hidden settingsli"><font-awesome-icon fas icon="cogs" class="icon"></font-awesome-icon><a class="dropdown-item" href="#">Site settings</a></li>
+              <li id="ManageNavigation" class="hidden settingsli"><font-awesome-icon far icon="compass" class="icon"></font-awesome-icon><a class="dropdown-item" href="/wc/surinhd/td/private/techrigor/Pages/ManageNavigation.aspx">Manage Navigation</a></li>
             </ul>
           </li>
         </ul>

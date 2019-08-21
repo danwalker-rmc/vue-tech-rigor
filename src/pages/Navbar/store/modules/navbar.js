@@ -58,5 +58,6 @@ export const actions = {
     catch (e) {
       console.log('Error Getting SiteActions')
     }
+    commit('SET_LOADING', false)
   }
 }
