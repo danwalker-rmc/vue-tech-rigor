@@ -28,13 +28,11 @@
 	<div id="MainAlerts" class="container">
 		<div id="Alerts" class="row"></div>
 	</div>
-	<div id="MainContent" class="container-fluid">
+	<div id="MainContent" class="container">
 		<div class="row">
-			<div class="col-sm-12">
-				<WebPartPages:WebPartZone runat="server" Title="Main" ID="WPZMain">
-					<ZoneTemplate></ZoneTemplate>
-				</WebPartPages:WebPartZone>
-			</div>
+			<WebPartPages:WebPartZone runat="server" Title="Main" ID="WPZMain">
+				<ZoneTemplate></ZoneTemplate>
+			</WebPartPages:WebPartZone>
 		</div>
 	</div>
 </asp:Content>

@@ -14,7 +14,8 @@ $grid-breakpoints: (
   xl: 1200px,
   xxl: 1440px,
   xxxl: 1600px,
-  xxxxl: 1920px
+  xxxxl: 1920px,
+  xxxxxl: 3840px
 );
 $container-max-widths: (
   xxxs: 0,
@@ -26,7 +27,8 @@ $container-max-widths: (
   xl: 1200px,
   xxl: 1440px,
   xxxl: 1600px,
-  xxxxl: 1920px
+  xxxxl: 1920px,
+  xxxxxl: 3840px
 );
 
 $enable-rounded: false;

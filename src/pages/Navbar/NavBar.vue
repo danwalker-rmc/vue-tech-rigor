@@ -7,105 +7,531 @@
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="200" height="48" viewBox="0 0 200 48">
               <path d="M0,0 L200.000,0 L185.000,48.000 L-23.000,48.000 L0,0 Z" class="navbar-brand-svg" />
             </svg>
-            <a class="navbar-brand" href="#" id="navbarTRMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technical Rigor</a>
+            <a class="navbar-brand" href="/wc/surinhd/td/private/techrigor/Pages/Home.aspx" id="navbarTRMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technical Rigor</a>
             <ul class="dropdown-menu" id="ulTechRigor" aria-labelledby="navbarTRMenuLink">
               <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Reviews</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                <a class="dropdown-item dropdown-toggle" href="/wc/surinhd/td/private/techrigor/Pages/TechRigor.aspx">Tech Rigor</a>
+                <ul class="dropdown-menu" id="ulQualityExecution" aria-labelledby="QualityExecutionMenuLink">
                   <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                    <a class="dropdown-item dropdown-toggle" href="#">Reviews</a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Metrics</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Instructions</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Personnel Roles</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Awards</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Tools/Templates</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">IHU Tech Courses</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Metrics</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                <a class="dropdown-item dropdown-toggle" href="/wc/surinhd/td/private/techrigor/Pages/QualityExecution.aspx">Quality Execution</a>
+                <ul class="dropdown-menu" id="ulQualityExecution" aria-labelledby="QualityExecutionMenuLink">
                   <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                    <a class="dropdown-item dropdown-toggle" href="#">Reviews</a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Metrics</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Instructions</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Personnel Roles</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Awards</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Tools/Templates</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">IHU Tech Courses</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Instructions</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                <a class="dropdown-item dropdown-toggle" href="/wc/surinhd/td/private/techrigor/Pages/SystemsEngineering.aspx">Systems Engineering</a>
+                <ul class="dropdown-menu" id="ulSystemsEngineering" aria-labelledby="SystemsEngineeringMenuLink">
                   <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                    <a class="dropdown-item dropdown-toggle" href="#">Reviews</a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Metrics</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Instructions</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Personnel Roles</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Awards</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Tools/Templates</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">IHU Tech Courses</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Personnel Roles</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                <a class="dropdown-item dropdown-toggle" href="/wc/surinhd/td/private/techrigor/Pages/SafetyExecution.aspx">Safety Execution</a>
+                <ul class="dropdown-menu" id="ulSafetyExecution" aria-labelledby="SafetyExecutionMenuLink">
                   <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                    <a class="dropdown-item dropdown-toggle" href="#">Reviews</a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Metrics</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Instructions</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Personnel Roles</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Awards</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Tools/Templates</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">IHU Tech Courses</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Awards</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                <a class="dropdown-item dropdown-toggle" href="/wc/surinhd/td/private/techrigor/Pages/ProjectManagement.aspx">Project Management</a>
+                <ul class="dropdown-menu" id="ulProjectManagement" aria-labelledby="ProjectManagementMenuLink">
                   <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                    <a class="dropdown-item dropdown-toggle" href="#">Reviews</a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Metrics</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Instructions</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Personnel Roles</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Awards</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Tools/Templates</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">IHU Tech Courses</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Submenu</a></li>
+                      <li><a class="dropdown-item" href="#">Submenu 0</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                          <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Tools/Templates</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
+                <a class="dropdown-item" href="#">PLC POC's</a>
               </li>
               <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">IHU Tech Courses</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
+                <a class="dropdown-item" href="#">Current Year Plan</a>
+              </li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item" href="#">Master Plan</a>
               </li>
             </ul>
           </li>
@@ -117,437 +543,30 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link" href="http://example.com" id="QualityExecutionMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="/wc/surinhd/td/private/TDD/TDDQ/SitePages/Home.aspx" id="QualityExecutionMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Quality Execution
             </a>
-            <ul class="dropdown-menu" id="ulQualityExecution" aria-labelledby="QualityExecutionMenuLink">
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Reviews</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Metrics</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Instructions</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Personnel Roles</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Awards</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Tools/Templates</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">IHU Tech Courses</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="http://example.com" id="SystemsEngineeringMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="/wc/surinhd/a/private/TDD/TechnicalRigor/Forms/AllItems.aspx" id="SystemsEngineeringMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Systems Engineering
             </a>
-            <ul class="dropdown-menu" id="ulSystemsEngineering" aria-labelledby="SystemsEngineeringMenuLink">
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Reviews</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Metrics</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Instructions</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Personnel Roles</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Awards</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Tools/Templates</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">IHU Tech Courses</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="http://example.com" id="SafetyExecutionMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="/wc/surinhd/a/private/00SA/SitePages/Home.aspx" id="SafetyExecutionMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Safety Execution
             </a>
-            <ul class="dropdown-menu" id="ulSafetyExecution" aria-labelledby="SafetyExecutionMenuLink">
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Reviews</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Metrics</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Instructions</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Personnel Roles</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Awards</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Tools/Templates</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">IHU Tech Courses</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="http://example.com" id="ProjectManagementMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="/wc/surinhd/td/private/techrigor/Pages/ProjectManagementHome.aspx" id="ProjectManagementMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Project Management
             </a>
-            <ul class="dropdown-menu" id="ulProjectManagement" aria-labelledby="ProjectManagementMenuLink">
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Reviews</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Metrics</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Instructions</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Personnel Roles</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Awards</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Tools/Templates</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">IHU Tech Courses</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Submenu</a></li>
-                  <li><a class="dropdown-item" href="#">Submenu 0</a></li>
-                  <li class="dropdown-submenu">
-                    <a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
-                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
           </li>
         </ul>
+        <form role="search" class="form-inline my-2 app-search hidden-xs ">
+          <input type="text" placeholder="Search..." class="form-control" v-model="searchinput" @change="searchme" /> <a href="#" @click.stop="searchme"><i class="fa fa-search"></i></a>
+        </form>
         <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="#" id="MessageMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <font-awesome-icon far icon="envelope" class="icon"></font-awesome-icon>
-              <span id="messagebadge" class="badge badge-xs badge-warning">5</span>
-            </a>
-            <ul class="dropdown-menu dropdown-menu-right" id="ulMessages" aria-labelledby="MessageMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-            </ul>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" id="SettingsMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <font-awesome-icon fas icon="cog" class="icon"></font-awesome-icon>
@@ -572,11 +591,22 @@
 
 <script>
 export default {
+  data: function() {
+    return {
+      searchinput: ''
+    }
+  },
   mounted: function() {
     this.$nextTick(function() {
-      console.log('Getting Actions')
+      console.log('Getting Navigation')
+      // this.$store.dispatch('navbar/getNavigation')
       this.$store.dispatch('navbar/getSiteActions')
     })
+  },
+  methods: {
+    searchme: function() {
+      window.location = 'https://navsea.navy.deps.mil/wc/surinhd/td/private/techrigor/Pages/SearchResults.aspx?k=' + this.searchinput
+    }
   }
 }
 </script>
@@ -605,6 +635,77 @@ export default {
   background-color: #000000 !important;
 }
 
+/* .searchgroup {
+  height: 30px;
+}
+.searchinput {
+  font-size: 18px;
+  height: 30px;
+  margin-top: 9px;
+  width: 450px;
+}
+.searchbuttonarea {
+  border-color: red;
+  width: 30px;
+}
+.searchbutton {
+  width: 30px;
+} */
+
+/* BEGIN SEARCH */
+.app-search {
+  position: relative;
+  margin: 0px;
+}
+.app-search a {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  color: #ffffff;
+}
+.app-search .form-control {
+  border: none;
+  font-size: 13px;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+  height: 50px;
+  font-weight: 600;
+  width: 180px;
+  display: inline-block;
+  line-height: 50px;
+  transition: 0.5s ease-out;
+}
+.app-search .form-control:focus {
+  border: none;
+  font-size: 13px;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+  height: 50px;
+  font-weight: 600;
+  width: 250px;
+  display: inline-block;
+  line-height: 50px;
+  transition: 0.5s ease-out;
+}
+.app-search .form-control::-moz-placeholder {
+  color: #fafafa;
+  opacity: 0.5;
+}
+.app-search .form-control::-webkit-input-placeholder {
+  color: #fafafa;
+  opacity: 0.5;
+}
+.app-search .form-control::-ms-placeholder {
+  color: #fafafa;
+  opacity: 0.5;
+}
+/* END SEARCH */
 .icon {
   color: white;
   font-size: 18px;
@@ -698,7 +799,7 @@ li:hover > .dropdown-item {
 
 .settingsli {
   display: inline-flex;
-  width: 160px;
+  width: 200px;
 }
 
 #ulSettings li:hover {

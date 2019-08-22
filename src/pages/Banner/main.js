@@ -1,4 +1,4 @@
-import '@babel/polyfill'
+// import '@babel/polyfill'
 import Vue from 'vue'
 import './master'
 import App from './App.vue'
@@ -12,8 +12,8 @@ library.add(far, fas)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-import jquery from 'jquery'
-Object.defineProperty(Vue.prototype, '$jQuery', { value: jquery })
+/* import jquery from 'jquery'
+Object.defineProperty(Vue.prototype, '$jQuery', { value: jquery }) */
 
 Vue.config.productionTip = false
 

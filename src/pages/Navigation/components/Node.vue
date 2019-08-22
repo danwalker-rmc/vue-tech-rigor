@@ -53,6 +53,7 @@
 </template>
 
 <script>
+import { isNullOrUndefined } from 'util'
 ;(function() {
   var CHARS = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('')
 
@@ -230,10 +231,11 @@ export default {
     },
     addNode: function(selectedNode) {
       this.selectedNode = selectedNode
+      let id = Math.uuid()
+      let added = false
       // are there already child nodes
       if (this.selectedNode.nodes && this.selectedNode.nodes.length > 0) {
         // add a new node to the existing nodes array
-        let id = Math.uuid()
         this.selectedNode.nodes.push({
           id: id,
           expandable: true,
@@ -245,14 +247,15 @@ export default {
           },
           nodes: []
         })
-        let r = 'modal_' + id
-        console.log('ADDED MODAL: ' + r)
-        that.selectedModal = r
-        // this.showModal = true
-        that.$options.interval = setInterval(that.showModal, 2000)
-        // this.showModal(r)
+        added = true
       } else {
         // create new nodes array with a new node
+      }
+      if (added) {
+        let r = 'modal_' + id
+        console.log('ADDED MODAL: ' + r)
+        this.selectedModal = r
+        this.$options.interval = setInterval(this.showModal, 500)
       }
     },
     editNode: function(selectedNode) {
@@ -260,22 +263,23 @@ export default {
     },
     showModal: function() {
       // var vm = this
-      console.log('SHOWMODAL: ' + that.selectedModal)
-      if (!that.showingModal) {
-        console.log('LOOKING FOR REF...')
-        if (that.$refs[that.selectedModal] !== null && that.$refs[that.selectedModal] !== undefined) {
-          console.log('FOUND REF AND IT IS GOOD')
-          clearInterval(that.$options.interval)
-          // this.$refs[this.selectedModal].show()
+      console.log('SHOWMODAL: ' + this.selectedModal)
+      if (!this.showingModal) {
+        console.log('LOOKING FOR MODAL...' + this.selectedModal)
+        this.tries += 1
+        let m = document.getElementById(this.selectedModal)
+        if (isNullOrUndefined(m)) {
+          console.log('NOT FOUND REF YET ' + this.tries)
+        } else {
+          console.log('FOUND MODAL AND IT IS GOOD')
+          this.showingModal = true
+          clearInterval(this.$options.interval)
+          this.$bvModal.show(this.selectedModal)
         }
-      } /* else {
-        that.tries += 1
-        console.log(that.tries)
-      } */
+      }
     },
     modalShown: function(id) {
-      this.showingModal = true
-      clearInterval(this.$options.interval)
+      console.log('SHOWING MODAL WITH ID ' + id)
     },
     getFolderIcon: function(expanded) {
       let f = 'fa-folder'
@@ -416,6 +420,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+ul {
+  padding-inline-start: 10px;
+}
 .tree-indent {
   margin: 0 10px;
   display: inline-block;

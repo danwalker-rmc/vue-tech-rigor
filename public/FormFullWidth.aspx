@@ -5,18 +5,36 @@
 <%@ Register TagPrefix="PublishingWebControls" Namespace="Microsoft.SharePoint.Publishing.WebControls" Assembly="Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Register TagPrefix="PublishingNavigation" Namespace="Microsoft.SharePoint.Publishing.Navigation" Assembly="Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Register TagPrefix="SPSWC" Namespace="Microsoft.SharePoint.Portal.WebControls" Assembly="Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
-<asp:Content ContentPlaceholderID="PlaceHolderAdditionalPageHead" runat="server">
-	<SharePointWebControls:CssRegistration name="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/pagelayouts15.css %>" runat="server"/>
-	<PublishingWebControls:EditModePanel runat="server">
-		<!-- Styles for edit mode only-->
-		<SharePointWebControls:CssRegistration name="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/editmode15.css %>" After="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/pagelayouts15.css %>" runat="server"/>
+<asp:Content contentplaceholderid="PlaceHolderAdditionalPageHead" runat="server">
+	<SharePointWebControls:CssRegistration
+		name="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/pagelayouts15.css %>"
+		runat="server" />
+	<PublishingWebControls:EditModePanel PageDisplayMode="Edit" runat="server">
+		<SharePointWebControls:CssRegistration
+			name="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/editmode15.css %>"
+			After="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/pagelayouts15.css %>"
+			runat="server" />
 	</PublishingWebControls:EditModePanel>
+	<SharePointWebControls:FieldValue id="PageStylesField" FieldName="HeaderStyleDefinitions" runat="server" />
+	<PublishingWebControls:EditModePanel PageDisplayMode="Display" runat="server"></PublishingWebControls:EditModePanel>
+
 </asp:Content>
-<asp:Content ContentPlaceHolderId="PlaceHolderPageTitle" runat="server">
-	<SharePointWebControls:ListProperty Property="Title" runat="server"/> - <SharePointWebControls:FieldValue FieldName="Title" runat="server"/>
+
+<asp:Content contentplaceholderid="PlaceHolderPageTitle" runat="server">
+	<SharePointWebControls:FieldValue FieldName="Title" runat="server" />
 </asp:Content>
-<asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server">
-	<div class="container">
-		<WebPartPages:WebPartZone runat="server" Title="<%$Resources:cms,WebPartZoneTitle_Header%>" ID="Header"/>
+
+<asp:Content contentplaceholderid="PlaceHolderMain" runat="server">
+	<div id="MainAlerts" class="container">
+		<div id="Alerts" class="row"></div>
+	</div>
+	<div id="MainContent" class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<WebPartPages:WebPartZone runat="server" Title="Main" ID="WPZMain">
+					<ZoneTemplate></ZoneTemplate>
+				</WebPartPages:WebPartZone>
+			</div>
+		</div>
 	</div>
 </asp:Content>

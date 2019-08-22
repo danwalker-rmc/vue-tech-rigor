@@ -12,12 +12,12 @@ module.exports = {
       filename: 'footer.html',
       title: 'Footer'
     },
-    banner: {
+    /* banner: {
       entry: './src/pages/Banner/main.js',
       template: 'public/banner.html',
       filename: 'banner.html',
       title: 'Banner'
-    },
+    }, */
     nav: {
       entry: './src/pages/Navigation/main.js',
       template: 'public/nav.html',

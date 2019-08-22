@@ -28,10 +28,20 @@
 	<div id="MainAlerts" class="container">
 		<div id="Alerts" class="row"></div>
 	</div>
-	<div id="MainContent" class="container-fluid">
+	<div id="MainContent" class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-12 col-md-3">
+				<WebPartPages:WebPartZone runat="server" Title="Left" ID="WPZLeft">
+					<ZoneTemplate></ZoneTemplate>
+				</WebPartPages:WebPartZone>
+			</div>
+			<div class="col-sm-12 col-md-6">
 				<WebPartPages:WebPartZone runat="server" Title="Main" ID="WPZMain">
+					<ZoneTemplate></ZoneTemplate>
+				</WebPartPages:WebPartZone>
+			</div>
+			<div class="col-sm-12 col-md-3">
+				<WebPartPages:WebPartZone runat="server" Title="Right" ID="WPZRight">
 					<ZoneTemplate></ZoneTemplate>
 				</WebPartPages:WebPartZone>
 			</div>
