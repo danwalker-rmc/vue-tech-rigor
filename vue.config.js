@@ -23,6 +23,12 @@ module.exports = {
       template: 'public/nav.html',
       filename: 'nav.html',
       tiitle: 'Nav'
+    },
+    announcements: {
+      entry: './src/pages/Announcements/main.js',
+      template: 'public/announcements.html',
+      filename: 'announcements.html',
+      tiitle: 'Announcements'
     }
   },
   assetsDir: 'static',
