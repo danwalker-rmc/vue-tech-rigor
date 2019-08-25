@@ -263,7 +263,7 @@
                         </SharePoint:AjaxDelta>
                     </div>
                 </div>
-                <div id="s4-workspace">
+                <div id="s4-workspace" class="s4-nosetwidth">
                     <div id="s4-bodyContainer">
                         <div id="DeltaPlaceHolderMain" runat="server">
                             <div id="sideNavBox" class="hidden">
@@ -295,8 +295,8 @@
                     </div>
                 </div>
             </main>
-            <footer id="mainfooter" class="footer">
-                <div class="container" id="footercontainer"></div>
+            <footer class="footer">
+                <div id="FooterBar"></div>
             </footer>
 
             <SharePoint:AjaxDelta id="DeltaFormDigest" BlockElement="true" runat="server">

@@ -21,9 +21,10 @@ export const mutations = {
 
 export const actions = {
   getSiteActions({ commit }) {
+    console.log('Getting SiteActions')
     commit('SET_LOADING', true)
     try {
-      jquery("menu[id*='SiteActionsMenuMain'] ie\\:menuitem").each(function () {
+      jquery("menu[id*='SiteActions'] ie\\:menuitem").each(function () {
         var text = String(jquery(this).attr('text'))
         var omc = jquery(this).attr('onmenuclick')
         switch (true) {

@@ -564,7 +564,7 @@
           </li>
         </ul>
         <form role="search" class="form-inline my-2 app-search hidden-xs ">
-          <input type="text" placeholder="Search..." class="form-control" v-model="searchinput" @change="searchme" /> <a href="#" @click.stop="searchme"><i class="fa fa-search"></i></a>
+          <input type="text" placeholder="Search..." class="form-control" v-model="searchinput" v-on:keyup.enter="searchme" /> <a href="#" @click.stop="searchme"><i class="fa fa-search"></i></a>
         </form>
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
@@ -580,7 +580,7 @@
               <li id="ulsettings_Manager" class="hidden settingsli"><font-awesome-icon fas icon="pencil-alt" class="icon"></font-awesome-icon><a class="dropdown-item" href="#">Design Manager</a></li>
               <li id="ulsettings_Contents" class="hidden settingsli"><font-awesome-icon fas icon="box-open" class="icon"></font-awesome-icon><a class="dropdown-item" href="#">Site contents</a></li>
               <li id="ulsettings_Settings" class="hidden settingsli"><font-awesome-icon fas icon="cogs" class="icon"></font-awesome-icon><a class="dropdown-item" href="#">Site settings</a></li>
-              <li id="ManageNavigation" class="hidden settingsli"><font-awesome-icon far icon="compass" class="icon"></font-awesome-icon><a class="dropdown-item" href="/wc/surinhd/td/private/techrigor/Pages/ManageNavigation.aspx">Manage Navigation</a></li>
+              <!-- <li id="ManageNavigation" class="hidden settingsli"><font-awesome-icon far icon="compass" class="icon"></font-awesome-icon><a class="dropdown-item" href="/wc/surinhd/td/private/techrigor/Pages/ManageNavigation.aspx">Manage Navigation</a></li> -->
             </ul>
           </li>
         </ul>
@@ -634,23 +634,6 @@ export default {
 .bg-dark {
   background-color: #000000 !important;
 }
-
-/* .searchgroup {
-  height: 30px;
-}
-.searchinput {
-  font-size: 18px;
-  height: 30px;
-  margin-top: 9px;
-  width: 450px;
-}
-.searchbuttonarea {
-  border-color: red;
-  width: 30px;
-}
-.searchbutton {
-  width: 30px;
-} */
 
 /* BEGIN SEARCH */
 .app-search {

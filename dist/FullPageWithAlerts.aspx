@@ -16,7 +16,11 @@
 			runat="server" />
 	</PublishingWebControls:EditModePanel>
 	<SharePointWebControls:FieldValue id="PageStylesField" FieldName="HeaderStyleDefinitions" runat="server" />
-	<PublishingWebControls:EditModePanel PageDisplayMode="Display" runat="server"></PublishingWebControls:EditModePanel>
+	<PublishingWebControls:EditModePanel PageDisplayMode="Display" runat="server">
+		<style type="text/css">
+			#s4-ribbonrow, #PLPageData { display: none; }
+		</style>
+	</PublishingWebControls:EditModePanel>
 
 </asp:Content>
 
@@ -25,14 +29,19 @@
 </asp:Content>
 
 <asp:Content contentplaceholderid="PlaceHolderMain" runat="server">
-	<div id="MainAlerts" class="container">
+	<div id="MainAlerts" class="container mt-2">
 		<div id="Alerts" class="row"></div>
 	</div>
-	<div id="MainContent" class="container">
+	<div id="MainContent" class="container mt-2">
 		<div class="row">
 			<WebPartPages:WebPartZone runat="server" Title="Main" ID="WPZMain">
 				<ZoneTemplate></ZoneTemplate>
 			</WebPartPages:WebPartZone>
+		</div>
+	</div>
+	<div id="PLPageData">
+		<div id="PLPageTitle">
+			<SharePointWebControls:FieldValue FieldName="Title" runat="server" />
 		</div>
 	</div>
 </asp:Content>

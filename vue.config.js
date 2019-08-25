@@ -18,17 +18,23 @@ module.exports = {
       filename: 'banner.html',
       title: 'Banner'
     }, */
-    nav: {
+    /* nav: {
       entry: './src/pages/Navigation/main.js',
       template: 'public/nav.html',
       filename: 'nav.html',
       tiitle: 'Nav'
-    },
+    }, */
     announcements: {
       entry: './src/pages/Announcements/main.js',
       template: 'public/announcements.html',
       filename: 'announcements.html',
       tiitle: 'Announcements'
+    },
+    alerts: {
+      entry: './src/pages/Alerts/main.js',
+      template: 'public/alerts.html',
+      filename: 'alerts.html',
+      tiitle: 'Alerts'
     }
   },
   assetsDir: 'static',

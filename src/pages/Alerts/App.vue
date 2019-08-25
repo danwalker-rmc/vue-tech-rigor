@@ -1,14 +1,14 @@
 <template>
-  <div id="FooterBar" class="container-fluid p-0">
-    <Footer />
+  <div id="Alerts" class="container-fluid p-0">
+    <Alerts />
   </div>
 </template>
 
 <script>
-import Footer from './Footer.vue'
+import Alerts from './Alerts.vue'
 export default {
   components: {
-    Footer
+    Alerts
   }
 }
 </script>

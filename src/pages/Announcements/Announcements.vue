@@ -61,47 +61,49 @@
 </template>
 
 <script>
+import AnnouncementService from './services/AnnouncementService.js'
+import { isNullOrUndefined } from 'util'
+
 export default {
   name: 'Announcements',
   data: function() {
     return {
-      announcements: [
-        {
-          title: 'Early Model Railroading',
-          teasertext:
-            'Most early models for the toy market were powered by clockwork and controlled by levers on the locomotive. Although this made control crude the models were large and robust enough that handling the controls was practical. Various manufacturers introduced slowing and stopping tracks that could trigger levers on the locomotive and allow station stops.',
-          image: 'https://picsum.photos/id/197/400/400'
-        },
-        {
-          title: 'More Early Model Railroading',
-          teasertext:
-            'Early electrical models used a three-rail system with the wheels resting on a metal track with metal sleepers that conducted power and a middle rail which provided power to a skid under the locomotive. This made sense at the time as models were metal and conductive. Modern plastics were not available and insulation was a problem. In addition the notion of accurate models had yet to evolve and toy trains and track were crude tinplate. A variation on the three-rail system, Trix Twin, allowed two trains to be independently controlled on one track, before the advent of Digital Command Control.',
-          image: 'https://picsum.photos/id/204/400/400'
-        },
-        {
-          title: 'Two Rail Power',
-          teasertext:
-            'As accuracy became important some systems adopted two-rail power in which the wheels were isolated from each other and the rails carried the positive and negative supply with the right rail carrying the positive potential.Other systems such as Märklin instead used fine metal studs to replace the central rail, allowing existing three-rail models to use more realistic track.',
-          image: 'https://picsum.photos/id/220/400/400'
-        },
-        {
-          title: 'Overhead Power',
-          teasertext:
-            'Where the model is of an electric locomotive, it may be supplied by overhead lines, like the full-size locomotive. Before Digital Command Control became available, this was one way of controlling two trains separately on the same track. The electric-outline model would be supplied by the overhead wire and the other model could be supplied by one of the running rails. The other running rail would act as a common return.',
-          image: 'https://picsum.photos/id/227/400/400'
-        },
-        {
-          title: 'Live Steam For Outdoors',
-          teasertext:
-            'Engines powered by live steam are often built in large outdoor gauges of 5 inches (130 mm) and 7 1⁄2 inches (190 mm), are also available in Gauge 1, G scale, 16 mm scale and can be found in O and OO/HO. Hornby Railways produce live steam locomotives in OO, based on designs first arrived at by an amateur modeller. Other modellers have built live steam models in HO/OO, OO9 and N, and there is one in Z in Australia.',
-          image: 'https://picsum.photos/id/233/400/400'
-        }
-      ],
+      loaded: false,
+      announcements: [],
+      page: null,
       slide: 0,
       sliding: null
     }
   },
+  mounted: function() {
+    this.$options.interval = setInterval(this.getAnnouncements, 2000)
+  },
   methods: {
+    getAnnouncements: function() {
+      var vm = this
+      if (!this.loaded && isNullOrUndefined(document.getElementById('PLPageTitle')) !== true) {
+        let page = document.getElementById('PLPageTitle').innerText
+        page = page.trim()
+        // console.log('PAGE: ' + page)
+        if (page !== null) {
+          // console.log(page + ', ' + page.length)
+          clearInterval(this.$options.interval)
+          AnnouncementService.getAnnouncements()
+            .then(response => {
+              console.log('ANNOUNCEMENTS RETURNED ' + response.length)
+              if (response.length > 0) {
+                vm.loaded = true
+                vm.drawAnnouncements(response)
+              }
+            })
+            .catch(error => {
+              console.log('There was an error getting announcements: ', error)
+            })
+        }
+      } else {
+        console.log('LOOKING FOR PAGE')
+      }
+    },
     getclass: function(type, data) {
       // for this type = icon for now but can be expanded later if needed
       // data for now is just the index
@@ -154,6 +156,20 @@ export default {
     },
     onSlideEnd(slide) {
       this.sliding = false
+    },
+    drawAnnouncements: function(j) {
+      console.log('DRAWING ANNOUNCEMENTS')
+      for (let i = 0; i < j.length; i++) {
+        this.announcements.push({
+          title: j[i]['Title'],
+          teasertext: j[i]['TeaserText'],
+          image: j[i]['SliderImage']['Url']
+        })
+      }
+      this.loaded = false // reset for page reloads
+    },
+    beforeDestroy() {
+      clearInterval(this.$options.interval)
     }
   }
 }
@@ -170,33 +186,33 @@ export default {
   background-color: black !important;
   border: none;
 }
-.carousel {
+#Announcements .carousel {
   width: 100%;
 }
-.carousel-inner {
+#Announcements .carousel-inner {
   height: 400px;
 }
-.carousel-item {
+#Announcements .carousel-item {
   height: 400px;
 }
-.div-image {
+#Announcements .div-image {
   height: 400px;
   width: 400px;
   display: inline-block;
 }
-.div-body {
+#Announcements .div-body {
   height: 400px;
   width: calc(100% - 400px);
   display: inline-block;
 }
-.card {
+#Announcements .card {
   height: 400px;
 }
-.card-text {
+#Announcements .card-text {
   color: black;
   font-size: 13px;
 }
-.carousel-caption {
+#Announcements .carousel-caption {
   position: absolute;
   right: 0 !important;
   bottom: 0 !important;
@@ -207,10 +223,10 @@ export default {
   color: #fff;
   text-align: center;
 }
-.icon {
+#Announcements .icon {
   color: white;
 }
-.icon-active {
+#Announcements .icon-active {
   color: red;
 }
 </style>

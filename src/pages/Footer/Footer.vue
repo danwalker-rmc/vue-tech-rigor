@@ -1,30 +1,65 @@
 <template>
-  <div id="footercontent">
-    &copy; 2019 IHEODTD
-  </div>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark bg-black p-0">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item footer-item">
+        <a class="nav-link" href="/wc/surinhd/td/private/techrigor/Pages/Home.aspx">Home</a>
+      </li>
+      <li class="nav-item footer-item">
+        <a class="nav-link" href="/wc/surinhd/td/private/techrigor/Pages/Home.aspx">Indian Head University</a>
+      </li>
+      <li class="nav-item footer-item">
+        <a class="nav-link" href="/wc/surinhd/td/private/techrigor/Pages/Home.aspx">External Links</a>
+      </li>
+      <li class="nav-item footer-item">
+        <a class="nav-link" href="/wc/surinhd/td/private/techrigor/Pages/Home.aspx">Command Instructions</a>
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script>
 export default {}
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
-  /* Margin bottom by footer height -- this will be modified by code from the vue element as the height of the footer grows */
+  /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
+#s4-workspace {
+  height: auto !important;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-  color: #ffffff;
+  line-height: 60px;
+  /* Vertically center the text there */
   background-color: #000000;
 }
-#footercontent {
-  color: #ffffff;
-  background-color: #000000;
+
+.footer-item {
+  min-width: 200px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.footer-item .nav-link {
+  color: white !important;
+  padding: 23px 1rem;
+}
+
+.bg-black {
+  background-color: black !important;
 }
 </style>
