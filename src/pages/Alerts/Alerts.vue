@@ -4,7 +4,7 @@
       <b-alert show :variant="alert.type">
         <strong>{{ alert.intro }}:</strong>&nbsp;
         {{ alert.text }}
-        <a class="btn btn-lg" :class="getclass(alert.type, 'btn')" @click="showme('ModalCenter_' + index)">{{ alert.button }}</a>
+        <a class="btn" :class="getclass(alert.type, 'btn')" @click="showme('ModalCenter_' + index)">{{ alert.button }}</a>
       </b-alert>
       <b-modal :id="'ModalCenter_' + index" title="More Information" centered size="lg" :header-bg-variant="alert.type">
         <div class="d-block text-center" v-html="alert.body"></div>
@@ -99,7 +99,7 @@ export default {
   border: 1px solid transparent;
   width: 100%;
   font-size: 16px;
-  line-height: 48px;
+  line-height: 36px;
 }
 
 #Alerts a.btn {

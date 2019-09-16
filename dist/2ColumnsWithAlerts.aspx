@@ -14,9 +14,14 @@
 			name="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/editmode15.css %>"
 			After="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/pagelayouts15.css %>"
 			runat="server" />
+		<style type="text/css">
+			#Alerts { display: none; }
+		</style>
 	</PublishingWebControls:EditModePanel>
 	<SharePointWebControls:FieldValue id="PageStylesField" FieldName="HeaderStyleDefinitions" runat="server" />
 	<PublishingWebControls:EditModePanel PageDisplayMode="Display" runat="server">
+		<link href=/wc/surinhd/td/private/techrigor/SiteAssets/html/layout/static/css/alerts.css rel=preload as=style>
+		<link href=/wc/surinhd/td/private/techrigor/SiteAssets/html/layout/static/css/alerts.css rel=stylesheet>
 		<style type="text/css">
 			#s4-ribbonrow, #PLPageData { display: none; }
 		</style>
@@ -51,4 +56,5 @@
 			<SharePointWebControls:FieldValue FieldName="Title" runat="server" />
 		</div>
 	</div>
+	<script src="/wc/surinhd/td/private/techrigor/SiteAssets/html/layout/static/js/alerts.js"></script>
 </asp:Content>
